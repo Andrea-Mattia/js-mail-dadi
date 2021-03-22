@@ -7,4 +7,51 @@
 
 body {
     font-family: sans-serif;
+    background-image: linear-gradient(45deg, lightcoral, lightgreen);
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+/* UTILITIES */
+.df-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+/* APP CONTENT */
+header {
+    height: 80px;
+}
+
+.app {
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+
+.user-email,
+.dice {
+    justify-content: space-evenly;
+    margin: 2rem;
+    width: 40%;
+    height: 400px;
+    background: rgba(255, 255, 255, .25);
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.user-email .submit {
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    background: lightblue;
+    border: transparent;
+    border-radius: 10px;
+    cursor: pointer;
 }
