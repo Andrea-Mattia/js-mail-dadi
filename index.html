@@ -15,6 +15,7 @@
     </header>
 
     <div class="app df-center">
+        <!-- EMAIL CHECK -->
         <div class="user-email df-center f-col">
             <h2>Inserisci la tua email e controlla se è presente nel database.</h2>
             <form class="my-form df-center f-col">
@@ -24,7 +25,16 @@
             <button class="submit" onclick="myFunction1()">Controlla</button>
             <div id="response">Aspettando l'input...</div>
         </div>
-        <div class="dice df-center"></div>
+        <!-- DICE GAME -->
+        <div class="dice df-center f-col">
+            <h2>Clicca per giocare con i dadi e scopri se hai vinto!</h2>
+            <div class="cards df-center">
+                <div id="pc-dice">Aspettando il tiro...</div>
+                <div id="player-dice">Aspettando il tiro...</div>
+            </div>
+            <button class="submit" onclick="myFunction2()">Tira i dadi!</button>
+            <div id="result">Aspettando il tiro...</div>
+        </div>
     </div>
 
     <!-- JS -->

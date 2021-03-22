@@ -46,7 +46,7 @@ header {
     border-radius: 10px;
 }
 
-.user-email .submit {
+.submit {
     padding: 1rem;
     font-size: 18px;
     font-weight: bold;
@@ -54,4 +54,11 @@ header {
     border: transparent;
     border-radius: 10px;
     cursor: pointer;
+}
+
+#pc-dice,
+#player-dice,
+#result {
+    margin: 0 2rem;
+    font-size: 25px;
 }
